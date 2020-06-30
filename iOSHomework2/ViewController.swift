@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         // MARK: -   1️⃣ تحت الخط membersNamesArray إلي المصفوفه memberقم بإضافة المتغير
         
-        
+        membersNamesArray = [member]
         
         // MARK: -   النهاية
         
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         
         // MARK: -  4️⃣ functionCall داخل المتغير  secretNameLetter قم باستدعاء الدالة
         
-        var functionCall = ""
+        var functionCall = secretNameLetter()
         
         
         // MARK: -   النهاية
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         
         // MARK: -  5️⃣ functionCall داخل المتغير  secretNameEmoji قم باستدعاء الدالة
         
-        var functionCall = ""
+        var functionCall = secretNameEmoji()
         
         // MARK: -   النهاية
         
@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     
     
     // MARK: - 2️⃣ تحت هذا الخط secretNameLetter قم بكتابة الداله
-    
+    secretNameLetter(){}
     
     // MARK: -   النهاية
     
@@ -74,7 +74,7 @@ class ViewController: UIViewController {
     
     
     // MARK: - 3️⃣ تحت هذا الخط secretNameEmoji قم بكتابة الداله
-    
+    secretNameEmoji(){}
     
     // MARK: -   النهاية
     
