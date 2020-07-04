@@ -34,13 +34,13 @@ class ViewController: UIViewController {
         
         // MARK: -  4️⃣ functionCall داخل المتغير  secretNameLetter قم باستدعاء الدالة
         
-        var functionCall = secretNameLetter()
+        var functionCall: () = secretNameLetter()
         
         
         // MARK: -   النهاية
         
         
-        secretSocietyNameLabel.text =  functionCall
+        secretSocietyNameLabel.text =  String(functionCall)
     }
     
     
@@ -52,11 +52,11 @@ class ViewController: UIViewController {
         
         // MARK: -  5️⃣ functionCall داخل المتغير  secretNameEmoji قم باستدعاء الدالة
         
-        var functionCall = secretNameEmoji()
+        var functionCall: () = secretNameEmoji()
         
         // MARK: -   النهاية
         
-        secretSocietyNameLabel.text =  functionCall
+        secretSocietyNameLabel.text =   functionCall
         
         
     }
@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     
     
     // MARK: - 2️⃣ تحت هذا الخط secretNameLetter قم بكتابة الداله
-    secretNameLetter(){}
+    func secretNameLetter(){}
     
     // MARK: -   النهاية
     
@@ -74,7 +74,7 @@ class ViewController: UIViewController {
     
     
     // MARK: - 3️⃣ تحت هذا الخط secretNameEmoji قم بكتابة الداله
-    secretNameEmoji(){}
+    func secretNameEmoji(){}
     
     // MARK: -   النهاية
     
