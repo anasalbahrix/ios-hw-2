@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         
         // MARK: -   النهاية
         
-        secretSocietyNameLabel.text =   functionCall
+        secretSocietyNameLabel.text =   String(functionCall)
         
         
     }
